@@ -11,7 +11,7 @@ const menuData = [
         color: '#FF6B6B',
         icon: '📊'
     },
-     {
+    {
         id: '2',
         title: 'Peso Ideal',
         route: '/peso-ideal',
@@ -41,17 +41,27 @@ export default function HomeScreen() {
             style={[styles.button, { backgroundColor: item.color }]}
             onPress={() => router.push(item.route)}
             activeOpacity={0.8}
-            >
+        >
             <Text style={styles.buttonIcon}>{item.icon}</Text>
             <Text style={styles.buttonText}>{item.title}</Text>
         </TouchableOpacity>
     }
 
-  return (
-    <View>
-      <Text>index</Text>
-    </View>
-  )
+    return (
+        <SafeAreaView style={styles.container}>
+            <View style={styles.header}>
+                <Text style={styles.title}>🌸 Silvinha Health App</Text>
+                <Text style={styles.subtitle}>Cuide da sua saúde com carinho</Text>
+            </View>
+            <FlatList
+                data={menuData}
+                renderItem={renderMenuItem}
+                keyExtractor={(item) => item.id}
+                contentContainerStyle={styles.listContent}
+                showsVerticalScrollIndicator={false}
+            />
+        </SafeAreaView>
+    )
 }
 
 const styles = StyleSheet.create({})
