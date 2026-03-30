@@ -1,5 +1,5 @@
-git config --global user.name Samuel8812
-git config --global user.email samuelbardelicanal@gmail.com
+git config --global user.name Netxz
+git config --global user.email miguelluiznegrellecantu@gmail.com
 
 -- Criar um projeto React Native Expo
 npx create-expo-app@latest SilvinhaHealthApp --template blank
