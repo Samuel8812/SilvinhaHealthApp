@@ -5,7 +5,7 @@ git config --global user.email samuelbardelicanal@gmail.com
 npx create-expo-app@latest SilvinhaHealthApp --template blank
 
 --Restaurar i projeto
-cd calculadora
+cd SilvinhaHealthApp
 npm i
 
 --Executar o projeto
