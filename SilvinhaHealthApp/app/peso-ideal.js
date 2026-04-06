@@ -14,6 +14,7 @@ const [sexo, setSexo] = useState(null);
         Masculino
     </Text>
 </TouchableOpacity>
+
 import React, { useState } from 'react';
 import {
     View, Text, TextInput, TouchableOpacity,

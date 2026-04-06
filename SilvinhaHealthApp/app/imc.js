@@ -1,6 +1,6 @@
 const [peso, setPeso] = useState('');
 const [altura, setAltura] = useState('');
-const [resultado, setResultado] = useState(null);
+const [resultado, setResultado] = useState(null)
 
 const handleCalcular = () => {
     if (!peso || !altura) {

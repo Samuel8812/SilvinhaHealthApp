@@ -1,8 +1,13 @@
-import React from 'react'
-import { FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React from 'react';
+import {
+    View,
+    Text,
+    TouchableOpacity,
+    StyleSheet,
+    FlatList,
+} from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Icon, router } from 'expo-router';
-
+import { router } from 'expo-router';
 const menuData = [
     {
         id: '1',
