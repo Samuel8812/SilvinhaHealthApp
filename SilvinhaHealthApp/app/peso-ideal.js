@@ -43,10 +43,3 @@ export default function PesoIdealScreen() {
     // ... JSX e estilos omitidos por brevidade
     // (código completo conforme arquivo peso-ideal.js)
 }
-<Stack.Screen
-    name="peso-ideal"
-    options={{
-        title: 'Peso Ideal',
-        headerShown: true
-    }}
-/>

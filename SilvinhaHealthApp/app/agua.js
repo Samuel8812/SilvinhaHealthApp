@@ -14,10 +14,3 @@
         </View>
     )
 }
-<Stack.Screen
-    name="agua"
-    options={{
-        title: 'Água Diária',
-        headerShown: true
-    }}
-/>
