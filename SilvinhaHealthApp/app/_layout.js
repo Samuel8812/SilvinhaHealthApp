@@ -41,6 +41,7 @@ export default function _layout() {
                         title: 'Peso Ideal',
                         headerShown: true
                     }}
+
                 />
             </Stack>
         </>
